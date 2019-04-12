@@ -3,10 +3,7 @@
 const Common = require('ethereumjs-common').default
 const chains = require('ethereumjs-common/dist/chains').chains
 const { parse } = require('../lib/util')
-const RlpxServer = require('../lib/net/server/rlpxserver');
 const Node = require('../lib/node')
-const jayson = require('jayson')
-const RPCManager = require('../lib/rpc')
 const level = require('level')
 const os = require('os')
 const path = require('path')
